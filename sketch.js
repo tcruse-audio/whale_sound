@@ -1,7 +1,7 @@
 let osc, playing, frequ, ampl;
   
   function setup() {
-  let cnv = createCanvas(100000, 10000000);
+  let cnv = createCanvas(1000, 1000);
   cnv.mousePressed(playOscillator);
   osc = new p5.Oscillator('sine');
   
@@ -22,7 +22,7 @@ function draw() {
     textStyle(BOLD);
    textFont('Courier New');
   textAlign(CENTER);
-  text('Hold down mouse and move for a whale call!', 20, 20);
+  text('Hold down mouse and move for a whale call! :)', 20, 20);
    textSize(14);
   textStyle(NORMAL);
   text('Frequency: ' + frequ, 20, 40);
