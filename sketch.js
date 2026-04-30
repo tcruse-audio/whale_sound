@@ -21,7 +21,7 @@ function draw() {
    textSize(19);
     textStyle(BOLD);
    textFont('Courier New');
-  textAlign(LEFT);
+  textAlign(CENTER);
   text('Hold down mouse and move for a whale call!', 20, 20);
    textSize(14);
   textStyle(NORMAL);
